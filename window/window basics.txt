@@ -1,0 +1,5 @@
+// New window
+var w = Window.new("GUI Introduction", Rect(0,0,1000,1000));
+
+// change the colour:
+w.background_(Color.rand).front;
