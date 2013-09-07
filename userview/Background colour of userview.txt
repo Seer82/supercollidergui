@@ -1,0 +1,3 @@
+// this creates 
+var view=UserView(w, Rect(200,200,500,500));
+view.background_(Color.rand);

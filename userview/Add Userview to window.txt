@@ -1,0 +1,4 @@
+//Add a view
+var w = Window.new("GUI Introduction", Rect(0,0,1000,1000));
+var view=UserView(w, Rect(200,200,500,500));
+
