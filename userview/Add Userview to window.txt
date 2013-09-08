@@ -1,4 +1,18 @@
-//Add a view
-var w = Window.new("GUI Introduction", Rect(0,0,1000,1000));
-var view=UserView(w, Rect(200,200,500,500));
+(
+var window_var;
+var view;
 
+//x, y, width, height
+window_var = Window.new("GUI Introduction", Rect(0,0,1000,600));
+
+//show window
+window_var.front;
+
+//Add a view area to window
+//x, y, width , height
+view=UserView(window_var, Rect(200,200,100,300));
+
+//give it a colour different front window
+view.background_(Color.red);
+
+)
