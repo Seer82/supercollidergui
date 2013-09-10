@@ -1,5 +1,2 @@
 // New window
 var w = Window.new("GUI Introduction", Rect(0,0,1000,1000));
-
-//front is like show. The window will only appear when front() method is called
-w.front();
