@@ -1,5 +1,13 @@
 // New window
-var w = Window.new("GUI Introduction", Rect(0,0,1000,1000));
+var window_var,x_position,y_position,window_height,window_width;
+
+//create window
+//x,y,w,h
+x_position=0;
+y_position=0;
+window_height=1000;
+window_width=1000;
+window_var = Window.new("GUI Introduction", Rect(x_position,y_position,window_width,window_height));
 
 //front is like show. The window will only appear when front() method is called
-w.front();
+window_var.front();

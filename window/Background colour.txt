@@ -1,2 +1,2 @@
 // change the colour:
-w.background_(Color.rand).front;
+window_var.background_(Color.rand).front;

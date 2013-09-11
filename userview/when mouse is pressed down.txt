@@ -2,17 +2,24 @@
 //create vars 
 var window_var;
 var userview_var;
+var x_position,y_position,window_height,window_width;
 
 //create window
-//x,y,w,h
-window_var = Window.new("GUI Introduction", Rect(0,0,1000,1000));
+x_pos=20;
+y_pos=0;
+window_height=1000;
+window_width=1000;
+window_var = Window.new("GUI Introduction", Rect(x_pos,y_pos,window_width,window_height));
 
 //show window now
 window_var.front;
 
 //create a view area for the mouse down event and add to window
-//x,y,w,h
-userview_var=UserView(window_var, Rect(100,100,500,500)).background_(Color.red)
+view_x_pos=0;
+view_y_pos=0;
+view_height=1000;
+view_width=1000;
+userview_var=UserView(window_var, Rect(view_x_pos,view_y_pos,view_width,view_height)).background_(Color.red)
     
     /*
 			  the current view INJECTED to view_placeholder, 
